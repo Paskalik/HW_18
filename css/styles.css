@@ -1,0 +1,65 @@
+.row {
+	width: 99vw;
+}
+body {
+	padding-top: 82px;
+}
+div.container {
+	min-height: 25vh;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #99ceff;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+	color: white;
+	cursor: inherit;
+}
+.fa {
+	color: white;
+	margin-right: 0.5em;
+
+}
+.nav-link img {
+	height: 8vh;
+}
+.display-3 {
+	font-size: 5vh;
+}
+.display-4 {
+	font-size: 4vh;
+}
+.col-12 img {
+	height: 18vh;
+}
+.table-sm img {
+	height: 7vh;
+}
+.news :nth-child(2) {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.news :nth-last-child(2) {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+figure {
+	width: 1.3rem;
+	height: 1.3rem;
+	border-right: 2px solid #e6e6e6;
+	border-top: 2px solid #e6e6e6;
+}
+.left {
+	position: relative;
+	top: 1px;
+	transform: rotate(225deg);
+	margin-right: -10px;
+}
+.right {
+	position: relative;
+	top: 1px;
+	transform: rotate(45deg);
+	margin-left: -10px;
+}
+strong {
+	font-size: 3vh;
+}
