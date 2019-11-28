@@ -16,7 +16,6 @@ div.container {
 }
 .fa {
 	color: white;
-	margin-right: 0.5em;
 
 }
 .nav-link img {
@@ -62,4 +61,23 @@ figure {
 }
 strong {
 	font-size: 3vh;
+}
+form {
+	color: #005580;
+}
+form img {
+	height: 20%;
+}
+.btn {
+	background-color: #999999;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+h6 {
+	font-size: 2.2vh;
+}
+.resend {
+	transform: scale(-1, 1);
 }
